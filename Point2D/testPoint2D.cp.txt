@@ -1,0 +1,18 @@
+#include <iostream>
+#include "Point2D.h"
+using namespace std;
+
+int main() {
+  Point2D point(3.0, 4.0);
+
+  cout<<"Συντεταγμενες ειναι:("<<point.getX()<<","<<point.getY()<<endl;
+
+  cout<<"η αποσταση ειναι"<<point.calculateDistance()<<endl;
+
+  point.setX(1.0);
+  point.setY(2.0);
+
+  cout<<"Οι κανουριες συντεταγμενες ("<<point.getX()<<","<<point.getY()<<endl;
+
+  return 0;
+}
